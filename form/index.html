@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid Layout</title>
+    <title>Login</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h2>Sign in to your account</h2>
-
+    <article class="box">
+        <h2 class="topmsg">Sign in to your account</h2>
+            <h3 class="submsg">Your email</h3>
+                <input type="email" name="email" placeholder="example@email.com" size="40" class="input">
+            <h3 class="submsg">Password</h3>
+                <input type="password" name="password" size="40" minlength="8" maxlength="15" class="input">
+            <button type="submit">Sign in</button>
+    </article>
 </body>
 </html>
