@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(105, 170, 228);
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+
+.div {
+    margin: 0;
+    padding: 0;
+  }
+
+.item {
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    height: 50px;
+    background: #cc8f66;
+    border: 3px solid rgb(105, 170, 228);;
+    border-radius: 10%;
+}
+
+.grid{
+ display: flex;
+ flex-wrap: wrap;
+ width: 400px;
+}
+
+.b4x4 > .item {
+    width: 100px;
+}
+
+.b2x2 > .item {
+    width: 200px;
+}
+
+.b6x1 > .item {
+    width: 66.6px;
+}
