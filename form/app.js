@@ -17,12 +17,12 @@ window.onload = function(){
 };
 
     //クリックイベント
-    const btn = document.getElementsByTagName("button");
-    btn.addEventListener("click",function(){
+    const botan = document.getElementsByTagName("button");
+    botan.addEventListener("click",function(){
 
-            const inputEmail = document.getElementsByName("email").value;
-            const inputPass = document.getElementsByName("password").value;
+            const inputEmail = document.getElementsByName("email");
+            const inputPass = document.getElementsByName("password");
 
             localStorage.setItem("email", inputEmail);
             localStorage.setItem("password", inputPass);
-        },false);
+        });
