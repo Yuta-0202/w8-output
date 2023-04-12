@@ -52,3 +52,11 @@ button{
 button:hover{
     background-color: #0b20db;
 }
+
+.signUp{
+    margin-top: 20px;
+}
+
+.signUp > a:hover{
+    color: #640000;
+}
