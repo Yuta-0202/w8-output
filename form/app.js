@@ -6,11 +6,11 @@ window.onload = function(){
     const email = document.getElementsByName("email")
     const password = document.getElementsByName("password")
 
-    if(savedEmail == null){
+    if(savedEmail !== null){
         email.value = savedEmail;
         console.log(savedEmail)
     }
-    if(savedPass == null){
+    if(savedPass !== null){
         email.value = savedPass;
         console.log(savedPass)
     }
